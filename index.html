@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Hunt</title>
+        <link rel="shortcut icon" href="https://ae01.alicdn.com/kf/HTB1s0l6OpXXXXbRaXXXq6xXFXXXa/G-02-rare-coin-Ancient-Athens-Greek-Silver-Drachm-Atena-Greece-Owl-Drachma-copy-coins.jpg_640x640.jpg">
+        <link rel="stylesheet" href="treasurehunt.css">
+        <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="top-page">Treasure Hunt</h1>
+        <h2>Find the treasure!</h2>
+        <img src= "https://www.goodfreephotos.com/albums/vector-images/treasure-chest-vector-art.png"class="center" >
+        <hr  >
+        <h3>How to play:</h3>
+    
+        <h3>Rule 1: Click one of the question marks below</h3>
+        <h3>Rule 2: If you find the treasure, you win!</h3>
+        <h3>Rule 3: If you find the bomb, you lose.</h3>
+        <h3>Rule 4: You only have 5 turns!</h3>
+
+        </div>
+        <div id="gameboard">
+        <table>
+            <tr>
+                <td id=0 onclick="treasure(0)">?</td>
+                <td id=1 onclick="treasure(1)">?</td>
+                <td id=2 onclick="treasure(2)">?</td>
+            </tr>
+            <tr>
+                <td id=3 onclick="treasure(3)">?</td>
+                <td id=4 onclick="treasure(4)">?</td>
+                <td id=5 onclick="treasure(5)">?</td>
+            </tr>
+            <tr>
+                <td id=6 onclick="treasure(6)">?</td>
+                <td id=7 onclick="treasure(7)">?</td>
+                <td id=8 onclick="treasure(8)">?</td>
+            </tr>
+        </table>
+        </div>
+
+        <div class="button">
+        <button type="button" onclick="location.reload()">Restart Game</button>
+        </div>
+
+        <h3>Turns:<span id="clicksCount">0</span></h3>
+
+        <p id="outcome" ></p>
+        <img id="win" src="" class="center"  alt="">
+        <img id="lose" src="" class="center"  alt="">
+
+
+
+        <footer>
+            &copy Chris & Jessa | Jumpstart |
+            <a href="#top-page">Top of the page</a> |
+            <a href="https://www.google.com/" target="_blank">Google</a>
+        </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+body{
+    background-image: url(http://brainchase.com/public/uploads/Scavenger-Hunt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+*{
+    font-family: 'Sigmar One', cursive;
+}
+
+#gameboard{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+}
+
+table, tr, td{
+    background-color: rgba(101, 67, 33, 0.5);
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    table-layout: fixed;
+}
+
+#outcome{
+    text-align: center;
+}
+#lose{
+    height: 400px;
+    width: 700px;
+}
+
+
+.button{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+}
+
+td:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  background-color: yellow;
+}
+
+h1:hover {
+
+    -ms-transform: scale(2, 3); /* IE 9 */
+  -webkit-transform: scale(2, 3); /* Safari */
+  transform: scale(2, 3);
+  font-family: fantasy;
+  color: yellow;
+
+}
+
+h2:hover {
+    -ms-transform: scale(2, 3); /* IE 9 */
+  -webkit-transform: scale(2, 3); /* Safari */
+  transform: scale(2, 3);
+  font-family: cursive;
+  color: yellow;
+}
